@@ -13,13 +13,14 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "main/libs",
     "test",
     "tests"
   ],
   "dependencies": {
     "scratchblocks": "git+https://github.com/tjvr/scratchblocks.git",
-    "angular": "~1.4.7"
+    "angular": "~1.4.7",
+    "jquery": "1.9.1"
   },
   "overrides": {
     "scratchblocks": {
