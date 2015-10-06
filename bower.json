@@ -1,11 +1,11 @@
 {
   "name": "angular-scratchblocks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "Henry Miskin <hpgmiskin@gmail.com>"
   ],
-  "description": "",
-  "main": "./main.js",
+  "description": "Angular Directive for scratchblocks",
+  "main": "./main/app.js",
   "moduleType": [],
   "license": "MIT",
   "homepage": "",

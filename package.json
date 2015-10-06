@@ -1,7 +1,7 @@
 {
   "name": "angular-scratchblocks",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "server.js",
   "main": "",
   "devDependencies": {
     "express": "^4.13.3",
