@@ -18,17 +18,21 @@
     "tests"
   ],
   "dependencies": {
-    "scratchblocks": "git+https://github.com/tjvr/scratchblocks.git"
+    "scratchblocks": "git+https://github.com/tjvr/scratchblocks.git",
+    "angular": "~1.4.7"
   },
-  "overrides" : {
-    "scratchblocks" : {
-      "main" : [
+  "overrides": {
+    "scratchblocks": {
+      "main": [
         "./build/scratchblocks2.js",
         "./build/scratchblocks2.css"
       ],
-      "ignore" : [
+      "ignore": [
         "tests"
-      ]
+      ],
+      "dependencies": {
+        "jquery": "1.9.1"
+      } 
     }
   }
 }

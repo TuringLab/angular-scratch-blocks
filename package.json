@@ -1,0 +1,22 @@
+{
+  "name": "angular-scratchblocks",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuringLab/angular-scratchblocks.git"
+  },
+  "author": "Henry Miskin <hpgmiskin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuringLab/angular-scratchblocks/issues"
+  },
+  "homepage": "https://github.com/TuringLab/angular-scratchblocks#readme"
+}
