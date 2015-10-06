@@ -1,0 +1,34 @@
+{
+  "name": "angular-scratch-blocks",
+  "version": "0.0.0",
+  "authors": [
+    "Henry Miskin <hpgmiskin@gmail.com>"
+  ],
+  "description": "",
+  "main": "./main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scratchblocks": "git+https://github.com/tjvr/scratchblocks.git"
+  },
+  "overrides" : {
+    "scratchblocks" : {
+      "main" : [
+        "./build/scratchblocks2.js",
+        "./build/scratchblocks2.css"
+      ],
+      "ignore" : [
+        "tests"
+      ]
+    }
+  }
+}
