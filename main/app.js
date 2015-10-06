@@ -3,12 +3,16 @@
 angular.module('angularScratchblocks',[]).directive('scratchblock',function(){
 
 	function link(scope, element, attrs){
-		console.log('Created',scope);
+
+    angular.element(element).ready(function () {
+			scratchblocks2.parse('pre.scratchblocks');
+    });
+
 	};
 
 	return {
 		restrict: 'AE',
-		template: '<pre class="blocks">{{code}}</pre>',
+		template: '<pre class="scratchblocks">{{code}}</pre>',
 		link: link,
 		scope: {
 			code: "=code"
